@@ -1,0 +1,11 @@
+typedef struct arvore Arvore;
+typedef struct aluno Aluno;
+Aluno *dadosAluno();
+Arvore* insereAluno(Arvore *a, void *x, int id);
+Arvore* removeAluno(Arvore *a, int m);
+int altura(Arvore *a);
+Arvore *balancear(Arvore *a);
+int verificaBalancear(Arvore *a);
+void imprimeLarg(Arvore *a);
+void imprimeFolhas(Arvore *a);
+Arvore *sair(Arvore *a);
